@@ -39814,13 +39814,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         };
     },
     mounted: function mounted() {
+        var _this = this;
+
         var headers = {
             'X-Api-Key': '$2y$10$3wq/Vf3NPa/4wwojdpiJK.vpSvSWCL4aZWziIw7of9jysCiswF9Oa'
         };
-        /*axios.get('/api/time', {headers}).then(resp => {
-            this.now = resp.data;
-            this.loading = false;
-        });*/
+        axios.get('/api/time', { headers: headers }).then(function (resp) {
+            _this.now = resp.data;
+            _this.loading = false;
+        });
 
         var api_key = 'AIzaSyBasAuG1q7nXdoVCUyyPRdZuLp__l5v4Ro';
         var channel_id = 'UCYDI-2dkFzrmG6oHR7a4r_Q';
