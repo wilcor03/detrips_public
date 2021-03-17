@@ -4,7 +4,9 @@
     "/css/blog.css": "/css/blog.css",
     "/css/place.css": "/css/place.css",
     "/css/app.css": "/css/app.css",
+    "/css/custom.css": "/css/custom.css",
     "/js/place-app.js": "/js/place-app.js",
     "/js/city-app.js": "/js/city-app.js",
+    "/js/offer-app.js": "/js/offer-app.js",
     "/js/lightgallery.js": "/js/lightgallery.js"
 }
